@@ -9,6 +9,7 @@ phases:
       - pip3 install --upgrade awscli
 
       # Install Ruby dependencies from the Gemfile.
+      - gem install bundler:2.1.4
       - bundle install
 
   pre_build:
